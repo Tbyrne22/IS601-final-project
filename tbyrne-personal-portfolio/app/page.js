@@ -1,14 +1,15 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import { Button, Typography } from '@mui/material';
+'use client'
+import * as React from 'react';
+import AppNavbar from './views/AppNavbar';
+import WithRoot from './withRoot';
 
-export default function Home() {
+function Home() {
   return (
-    <main>
-      <Typography variant="h1">Welcome to Next.js with Material-UI!</Typography>
-      <Button variant="contained" color="primary">
-        Click Me
-      </Button>
-    </main>
-  )
+    <>
+      <AppNavbar />
+      
+    </>
+  );
 }
+
+export default WithRoot(Home);
