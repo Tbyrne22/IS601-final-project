@@ -1,5 +1,5 @@
 :root {
-  --max-width: 1200px;
+  --min-height: 100vh;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -9,17 +9,22 @@
   --font-color-secondary: white;
 
   --background-color-primary: #2B2B2B;
-  --background-color-secondaary: #5B330F;
+  --background-color-secondary: #5B330F;
+  --background-color-tertiary: #88B7D8;
 }
 
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
+} */
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+h2 {
+  color: white;
 }
