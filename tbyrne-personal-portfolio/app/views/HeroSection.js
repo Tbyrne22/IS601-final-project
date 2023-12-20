@@ -46,8 +46,10 @@ const heroImageStyle = {
 
 const heroAction = {
   backgroundColor: 'var(--font-color-primary)',
+  color: 'var(--font-color-secondary)',
+  borderRadius: 20,
   '&:hover':{
-   backgroundColor:'var(--font-color-secondary)',
+   backgroundColor:'grey',
  },
 };
 const heroContain = {
