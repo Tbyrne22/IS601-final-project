@@ -4,6 +4,7 @@ import AppNavbar from './views/AppNavbar';
 import HeroSection from './views/HeroSection';
 import WithRoot from './withRoot';
 import HeroTransition from './views/HeroTransition';
+import ProjectSection from './views/ProjectsSection';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <AppNavbar />
       <HeroSection />
       <HeroTransition />
+      <ProjectSection />
     </>
   );
 }
