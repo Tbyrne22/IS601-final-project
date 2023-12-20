@@ -41,7 +41,7 @@ const fontHeader = {
   color: rawTheme.palette.text.primary,
   fontWeight: rawTheme.typography.fontWeightMedium,
   fontFamily: "'Roboto', sans-serif",
-  textTransform: 'uppercase',
+//   textTransform: 'uppercase',
 };
 
 const theme = {
@@ -61,21 +61,23 @@ const theme = {
       ...rawTheme.typography.h1,
       ...fontHeader,
       letterSpacing: 0,
-      fontSize: 45,
-      fontFamily: 'Playfair Display',
-      textTransform: 'capitalize'
+      fontSize: 36,
+      fontFamily: 'EB Garamond',
+      textTransform: 'capitalize',
+      marginTop: '8px',
+      marginBottom: '8px',
     },
     h2: {
       ...rawTheme.typography.h2,
       ...fontHeader,
-      fontSize: 36,
-      marginBottom:'24px',
+      fontSize: 24,
+      lineHeight: '36px',
     },
     h3: {
       ...rawTheme.typography.h3,
       ...fontHeader,
       fontSize: 30,
-      fontFamily:'Ubuntu',
+      fontFamily:'EB Garamond',
       textDecoration:'underline',
       textTransform:'capitalize',
       letterSpacing: 0.5,
@@ -84,17 +86,19 @@ const theme = {
       ...rawTheme.typography.h4,
       ...fontHeader,
       fontSize: 20,
-      fontFamily: 'Ubuntu',
+      fontFamily: 'EB Garamond',
       fontWeight:500,
       textTransform: 'capitalize',
+      marginTop: '32px',
     },
     h5: {
       ...rawTheme.typography.h5,
       fontSize: 18,
       fontWeight: rawTheme.typography.fontWeightLight,
-      fontFamily: 'Ubuntu',
+      fontFamily: 'EB Garamond',
       letterSpacing: '1px',
       textTransform: 'capitalize',
+      
     },
     h6: {
       ...rawTheme.typography.h6,

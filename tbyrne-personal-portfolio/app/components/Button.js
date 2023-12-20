@@ -5,11 +5,11 @@ import MuiButton from '@mui/material/Button';
 const ButtonRoot = styled(MuiButton)(({ theme, size }) => ({
   borderRadius: 4,
   fontWeight: 700,
-  fontFamily: 'Ubuntu',
+  fontFamily: 'EB Garamond',
   padding: theme.spacing(2, 4),
   fontSize: '16px',
   boxShadow: 'none',
-  textTransform:'capitalize',
+  textTransform:'titlecase',
   '&:active, &:focus': {
     boxShadow: 'none',
   },

@@ -8,13 +8,14 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '../components/Typography';
 
-import '../globals.css'
+import '../globals.css';
 
 const logo = {
   color: 'var(--font-color-secondary)',
   fontSize: 20,
   fontFamily: 'EB Garamond',
-  textDecoration:'none'
+  textDecoration:'none',
+  letterSpacing: 0,
 };
 
 const rightLink = {
