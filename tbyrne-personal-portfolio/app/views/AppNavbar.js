@@ -87,7 +87,7 @@ function AppNavbar() {
               color="inherit"
               variant="h6"
               underline="none"
-              href="/#projects"
+              href="/projects"
               sx={rightLink}
               role="menuitem"
               aria-label="Projects"

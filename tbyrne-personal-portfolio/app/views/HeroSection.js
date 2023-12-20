@@ -62,7 +62,7 @@ export default function HeroSection() {
   return (
     <Box component="section" className="hero" sx={{...heroSection}}>
       <Container sx={{...heroContain}}>
-        <Grid container spacing={2}>
+        <Grid container spacing={4}>
           {/* First column */}
           <Grid item xs={12} sm={6} sx={{ display: 'flex', flexDirection: 'column'}}>
             <Box sx={{...heroTextContainer}}>
