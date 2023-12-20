@@ -5,6 +5,7 @@ import HeroSection from './views/HeroSection';
 import WithRoot from './withRoot';
 import HeroTransition from './views/HeroTransition';
 import ProjectSection from './views/ProjectsSection';
+import Footer from './views/Footer';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <HeroSection />
       <HeroTransition />
       <ProjectSection />
+      <Footer />
     </>
   );
 }
