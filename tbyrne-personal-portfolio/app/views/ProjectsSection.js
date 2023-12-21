@@ -26,7 +26,7 @@ export default function ProjectSection() {
                 <span style={{ color: 'var(--font-color-primary)' }}>Projects</span>
             </Typography>
             <Container sx={{mt:'64px'}}>
-                <Link href="/projects" sx={{textDecoration: 'none', '&:hover': {opacity: 0.8}}}>
+                <Link href="/projects" sx={{textDecoration: 'none', '&:hover': {opacity: 0.6}}}>
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={4}>
                     <MediaCard 
