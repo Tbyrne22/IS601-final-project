@@ -71,7 +71,6 @@ const theme = {
       ...rawTheme.typography.h2,
       ...fontHeader,
       fontSize: 24,
-      textDecoration:'underline',
       
       lineHeight: '36px',
     },
