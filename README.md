@@ -15,5 +15,3 @@ I don't see myself going into software development but I have already benefitted
 #### [Vercel Deployment](https://is-601-midterm-redo.vercel.app/)
 #### [Midterm Deployment](https://njit-wis.github.io/midterm-portfolio-Tbyrne22/)
 #### [Midterm GitHub Repo](https://github.com/NJIT-WIS/midterm-portfolio-Tbyrne22)
-
-Note: I only had 32 issues during the midterm.
