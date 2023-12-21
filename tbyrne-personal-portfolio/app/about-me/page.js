@@ -2,17 +2,17 @@
 import * as React from 'react';
 import WithRoot from '../withRoot';
 import AppNavbar from '../views/AppNavbar';
+import AboutMeSection from '../views/AboutMeSection';
 import Footer from '../views/Footer';
-import MyProjectsPage from '../views/ProjectsPage';
 
-function Projects() {
+function AboutMe() {
   return (
     <>
       <AppNavbar />
-      <MyProjectsPage />
+      <AboutMeSection />
       <Footer />
     </>
   );
 }
 
-export default WithRoot(Projects);
+export default WithRoot(AboutMe);
