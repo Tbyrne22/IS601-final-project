@@ -34,14 +34,14 @@ const rightLink = {
 
 const contactMe = {
   borderRadius: '20px',
-  background: 'var(--font-color-secondary)',
+  background: 'var(--font-color-primary)',
   fontWeight:600,
-  color: 'var(--font-color-primary)',
+  color: 'var(--background-color-secondary)',
   padding: '6px 24px',
   lineHeight:'25px',
   '&:hover': {
     opacity:0.5,
-  }
+  },
 };
 
   

@@ -19,54 +19,54 @@ const projectsContainer = {
 
 export default function ProjectSection() {
     return (
-        <Box component="section" sx={{...projectsContainer}}>
+        <Box component="section" sx={{...projectsContainer}} aria-label="Projects Section">
             <a name="project_section"></a>
             <Typography color="inherit" align="center" variant="h3" component="h3" marked="center">
                 <span style={{ color: 'var(--font-color-secondary)' }}>My</span>{' '}
                 <span style={{ color: 'var(--font-color-primary)' }}>Projects</span>
             </Typography>
             <Container sx={{mt:'64px'}}>
-                <Link href="/projects" sx={{textDecoration: 'none', '&:hover': {opacity: 0.6}}}>
+                <Link href="/projects" sx={{textDecoration: 'none', '&:hover': {opacity: 0.6}}} aria-label="Link to Projects Page">
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={4}>
                     <MediaCard 
                         title="Porfolio Web Design" 
-                        image="/images/pexels-kevin-ku-577585.jpg"
+                        image="/images/pexels-kevin-ku-577585.webp"
                         text="Designed a portfolio website using html, css, Figma, and github."
                         />
                     </Grid>
                     <Grid item xs={12} md={4}>
                     <MediaCard 
                         title="Breaker Installations and Replacements" 
-                        image="/images/pexels-blue-arauz-13287450.jpg"
+                        image="/images/pexels-blue-arauz-13287450.webp"
                         text="Lead designer for high voltage breakers for projects and emergencies."
                         />
                     </Grid>
                     <Grid item xs={12} md={4}>
                     <MediaCard 
                         title="Transformer Replacements" 
-                        image="/images/pexels-finn-whelen-6225047.jpg"
+                        image="/images/pexels-finn-whelen-6225047.webp"
                         text="Designer for the replacement of 26-4kV transformers."
                         />
                     </Grid>
                     <Grid item xs={12} md={4}>
                     <MediaCard 
                         title="Horizontal-Axis Wind Turbine" 
-                        image="/images/pexels-pixabay-414837.jpg"
+                        image="/images/pexels-pixabay-414837.webp"
                         text="Designed a horizontal-axis turbine for my undergrad practicum"
                         />
                     </Grid>
                     <Grid item xs={12} md={4}>
                     <MediaCard 
                         title="Transformer Design Specifications" 
-                        image="/images/pexels-pixabay-416405.jpg"
+                        image="/images/pexels-pixabay-416405.webp"
                         text="Developing design specifications for new power transformers."
                         />
                     </Grid>
                     <Grid item xs={12} md={4}>
                     <MediaCard 
                         title="Risk Analysis" 
-                        image="/images/pexels-luca-nardone-3651820.jpg"
+                        image="/images/pexels-luca-nardone-3651820.webp"
                         text="Developing risk assessment models for station outages."
                         />
                     </Grid>
