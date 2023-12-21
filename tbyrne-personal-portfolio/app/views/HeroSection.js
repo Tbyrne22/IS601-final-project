@@ -60,7 +60,7 @@ const heroContain = {
 
 export default function HeroSection() {
   return (
-    <Box component="section" className="hero" sx={{...heroSection}}>
+    <Box component="section" className="hero" sx={{...heroSection}} aria-label="Hero Section">
       <Container sx={{...heroContain}}>
         <Grid container spacing={4}>
           {/* First column */}
@@ -71,7 +71,7 @@ export default function HeroSection() {
               <Typography variant="h2" sx={{...heroTextStyle2}}>And I'm an Electrical & Computer Engineer</Typography>
               <Typography variant="h4" sx={{...heroTextStyle2}}>I Specialize in High-Voltage Electrical Equipment and Asset Strategy</Typography>
             </Box>
-            <Button color='inherit' variant="contained" href="#project_section" size="large" component="a" sx={{...heroAction, minWidth: 200, mt: '18px', alignSelf: 'center'}} >
+            <Button color='inherit' variant="contained" href="#project_section" size="large" component="a" sx={{...heroAction, minWidth: 200, mt: '18px', alignSelf: 'center'}} aria-label="View Projects Button" >
                 View My Projects
             </Button>
           </Grid>
